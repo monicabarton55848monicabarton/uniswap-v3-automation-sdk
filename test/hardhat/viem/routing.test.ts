@@ -1,11 +1,11 @@
 /**
  * yarn test:hardhat test/hardhat/viem/routing.test.ts
  */
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { FeeAmount, nearestUsableTick } from '@aperture_finance/uniswap-v3-sdk';
 import '@nomicfoundation/hardhat-viem';
 import { Percent } from '@uniswap/sdk-core';
 import { CurrencyAmount } from '@uniswap/smart-order-router';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import { parseEther } from 'viem';
 
 import {

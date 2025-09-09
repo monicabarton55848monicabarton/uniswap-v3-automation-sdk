@@ -4,12 +4,12 @@ import {
   Automan__factory,
   getAMMInfo,
 } from '@/index';
+import { ICommonNonfungiblePositionManager__factory } from '@aperture_finance/aperture-lens';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { Pool, Position } from '@aperture_finance/uniswap-v3-sdk';
 import { Currency, CurrencyAmount, Token } from '@uniswap/sdk-core';
 import { Percent } from '@uniswap/sdk-core';
 import { AbiEvent } from 'abitype';
-import { ICommonNonfungiblePositionManager__factory } from 'aperture-lens';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import {
   Address,
   Hex,

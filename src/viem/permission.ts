@@ -1,5 +1,5 @@
 import { ApertureSupportedChainId, PermitInfo, getAMMInfo } from '@/index';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import {
   CallExecutionError,
   Hex,
@@ -196,6 +196,7 @@ export async function generateTypedDataForPermit(
           chainId === ApertureSupportedChainId.BASE_MAINNET_CHAIN_ID
             ? 'Slipstream Position NFT v1'
             : 'Slipstream Position NFT v1.2',
+        [AutomatedMarketMakerEnum.enum.UNISWAP_V4]: 'Uniswap v4 Positions NFT',
       }[amm] || 'Uniswap V3 Positions NFT-V1') as string,
       version: '1',
       chainId,

@@ -8,6 +8,8 @@ import {
   computePoolAddress,
   getAMMInfo,
 } from '@/index';
+import { viem } from '@aperture_finance/aperture-lens';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import {
   FeeAmount,
   Pool,
@@ -15,8 +17,6 @@ import {
   tickToPrice,
 } from '@aperture_finance/uniswap-v3-sdk';
 import { Price, Token } from '@uniswap/sdk-core';
-import { viem } from 'aperture-lens';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import axios from 'axios';
 import JSBI from 'jsbi';
 import { Address, PublicClient } from 'viem';

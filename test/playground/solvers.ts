@@ -1,5 +1,5 @@
 // ts-node test/playground/solvers.ts
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 
 import { ApertureSupportedChainId } from '../../src';
 import { get1InchQuote } from '../../src/viem/solver/get1InchSolver';

@@ -5,9 +5,9 @@ import {
   getLogger,
 } from '@/index';
 import { ApertureSupportedChainId, computePoolAddress } from '@/index';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { Pool, Position } from '@aperture_finance/uniswap-v3-sdk';
 import { CurrencyAmount, Token } from '@uniswap/sdk-core';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import Big from 'big.js';
 import {
   Address,

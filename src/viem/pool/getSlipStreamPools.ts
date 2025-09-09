@@ -1,7 +1,7 @@
 import { getAMMInfo } from '@/chain';
 import { ApertureSupportedChainId } from '@/interfaces';
-import { IUniswapV3Pool__factory } from 'aperture-lens';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
+import { IUniswapV3Pool__factory } from '@aperture_finance/aperture-lens';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { Address, PublicClient } from 'viem';
 
 export type SlipStreamPool = {

@@ -2,8 +2,8 @@ import {
   AUTOMATION_EXPIRATION_IN_SECS,
   AUTOMATION_SLACK_IN_SECS,
 } from '@/constants';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { FeeAmount } from '@aperture_finance/uniswap-v3-sdk';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import { z } from 'zod';
 
 export enum ApertureSupportedChainId {

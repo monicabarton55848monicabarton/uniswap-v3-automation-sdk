@@ -5,7 +5,7 @@ import {
   ISlipStreamAutoman__factory,
   PermitInfo,
 } from '@/index';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { Hex, encodeFunctionData, hexToSignature } from 'viem';
 
 import {

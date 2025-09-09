@@ -1,6 +1,6 @@
 // ts-node src/viem/position/feesPlayground.ts
 import { ApertureSupportedChainId } from '@/interfaces';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { floor } from 'lodash';
 
 import { getPublicClient } from '../public_client';

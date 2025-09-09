@@ -1,7 +1,7 @@
 // yarn test:hardhat test/hardhat/viem/univ3-AutomanV3-transaction.test.ts
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { FeeAmount, nearestUsableTick } from '@aperture_finance/uniswap-v3-sdk';
 import { CurrencyAmount, Percent } from '@uniswap/sdk-core';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import hre, { ethers } from 'hardhat';
 import JSBI from 'jsbi';
 import {
@@ -39,7 +39,6 @@ import {
   getMintOptimalV3Tx,
   getMintedPositionIdFromTxReceipt,
   getPool,
-  getRebalanceV3Tx,
   getReinvestV3Tx,
 } from '../../../src/viem';
 import {

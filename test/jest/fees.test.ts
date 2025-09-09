@@ -1,10 +1,10 @@
 // yarn
 // yarn test:jest test/jest/fees.test.ts
 // TODO: Fix test cases from refactoring.
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { FeeAmount, Pool, Position } from '@aperture_finance/uniswap-v3-sdk';
 import { Token } from '@uniswap/sdk-core';
 import { CurrencyAmount } from '@uniswap/smart-order-router';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import { config as dotenvConfig } from 'dotenv';
 import JSBI from 'jsbi';
 

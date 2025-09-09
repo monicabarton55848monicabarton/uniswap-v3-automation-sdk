@@ -1,7 +1,7 @@
 // ts-node test/playground/reinvest4131280.ts
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { IncreaseOptions } from '@aperture_finance/uniswap-v3-sdk';
 import { Percent } from '@uniswap/sdk-core';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 
 import {
   ApertureSupportedChainId,

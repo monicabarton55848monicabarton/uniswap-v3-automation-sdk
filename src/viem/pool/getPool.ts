@@ -4,10 +4,10 @@ import {
   computePoolAddress,
   getLogger,
 } from '@/index';
+import { ISlipStreamCLPool__factory } from '@aperture_finance/aperture-lens';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { Pool } from '@aperture_finance/uniswap-v3-sdk';
 import { Token } from '@uniswap/sdk-core';
-import { ISlipStreamCLPool__factory } from 'aperture-lens';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import {
   Address,
   GetContractReturnType,

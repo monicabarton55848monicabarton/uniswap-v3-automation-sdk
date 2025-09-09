@@ -1,5 +1,5 @@
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import '@nomicfoundation/hardhat-viem';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import { config as dotenvConfig } from 'dotenv';

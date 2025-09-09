@@ -1,7 +1,7 @@
 import { ApertureSupportedChainId } from '@/index';
 import { E_Solver, mintOptimalV2, mintOptimalV3 } from '@/viem';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { Currency, CurrencyAmount, Token } from '@uniswap/sdk-core';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import { Address, PublicClient } from 'viem';
 
 /**

@@ -6,8 +6,8 @@ import {
   PriceCondition,
   getRawRelativePriceFromTokenValueProportion,
 } from '@/index';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { Price, Token } from '@uniswap/sdk-core';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import Big, { BigSource } from 'big.js';
 
 export function generateLimitOrderCloseRequestPayload(

@@ -1,6 +1,9 @@
 import { ApertureSupportedChainId } from '@/index';
-import { EphemeralAllPositionsByOwner__factory, viem } from 'aperture-lens';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
+import {
+  EphemeralAllPositionsByOwner__factory,
+  viem,
+} from '@aperture_finance/aperture-lens';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import {
   AbiStateMutability,
   ContractFunctionReturnType,

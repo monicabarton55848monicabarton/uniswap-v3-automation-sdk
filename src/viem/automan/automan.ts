@@ -4,13 +4,13 @@ import {
   Automan__factory,
   getAMMInfo,
 } from '@/index';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import {
   FeeAmount,
   Position,
   TICK_SPACINGS,
   nearestUsableTick,
 } from '@aperture_finance/uniswap-v3-sdk';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import {
   Address,
   GetContractReturnType,

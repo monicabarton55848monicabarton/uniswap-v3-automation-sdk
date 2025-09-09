@@ -1,5 +1,5 @@
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { Token } from '@uniswap/sdk-core';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import { Address, Chain, getAddress } from 'viem';
 import {
   arbitrum,

@@ -6,7 +6,7 @@ import {
   rebalanceBackend,
   rebalanceOptimalV2,
 } from '@/viem';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import { Address, PublicClient } from 'viem';
 
 /**

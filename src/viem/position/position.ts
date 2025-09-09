@@ -6,15 +6,15 @@ import {
   getTokenValueProportionFromPriceRatio,
   priceToSqrtRatioX96,
 } from '@/index';
-import { Pool, Position, TickMath } from '@aperture_finance/uniswap-v3-sdk';
-import { CurrencyAmount, Token } from '@uniswap/sdk-core';
 import {
   EphemeralGetPosition__factory,
   ISlipStreamNonfungiblePositionManager__factory,
   IUniswapV3NonfungiblePositionManager__factory,
   viem,
-} from 'aperture-lens';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
+} from '@aperture_finance/aperture-lens';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
+import { Pool, Position, TickMath } from '@aperture_finance/uniswap-v3-sdk';
+import { CurrencyAmount, Token } from '@uniswap/sdk-core';
 import Big from 'big.js';
 import {
   AbiStateMutability,

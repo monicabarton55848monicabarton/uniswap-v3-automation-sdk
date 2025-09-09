@@ -4,6 +4,7 @@ import {
   priceToClosestTickSafe,
   tickToLimitOrderRange,
 } from '@/index';
+import { AutomatedMarketMakerEnum } from '@aperture_finance/aperture-lens/dist/src/viem';
 import {
   FeeAmount,
   IncreaseOptions,
@@ -18,7 +19,6 @@ import {
   Price,
   Token,
 } from '@uniswap/sdk-core';
-import { AutomatedMarketMakerEnum } from 'aperture-lens/dist/src/viem';
 import JSBI from 'jsbi';
 import { Address, PublicClient, TransactionRequest } from 'viem';
 
